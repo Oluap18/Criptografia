@@ -1,4 +1,4 @@
-# Guiões das Sessões Laboratoriais
+# Guiões das Sessões Laboratoriais realizado em conjunto com [João Miguel](http://jrsmiguel.me/)
 
 ---
 ## FINALIZAÇÃO 
@@ -226,6 +226,7 @@ Pretende-se:
 
 ### Animação dos modelos de segurança
 
+
 Pretende-se animar em _Python_ os "jogos" que servem de base aos modelos de segurança
 adoptados na formalização das provas de segurança. Especificamente,
 sugere-se ilustrar ataque(s) à confidencialidade das cifras, recorrende à definição de
@@ -285,7 +286,7 @@ Existem duas estratégias para evitar gravar esses ficheiros desprotegidos:
  de uma _password_ ou _passphrase_ (que naturalmente não podem ser utilizadas
  directamente como chaves criptográficas). Para o efeito faz-se uso das
  designadas _Password Based Key Derivation Functions (PBKDF)_.
- 1. Armazenar o ficheiro de forma protegida, no que se designa habitualmente por
+ 2. Armazenar o ficheiro de forma protegida, no que se designa habitualmente por
  *KeyStore*. Na realidade, esta estratégia acaba por partilhar muitos dos requisitos
  da apresentada antes, porque para protegermos
  o ficheiro iremos ter de (internamente) usar uma cifra autenticada, e para isso
