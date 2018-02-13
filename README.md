@@ -293,14 +293,6 @@ Existem duas estratégias para evitar gravar esses ficheiros desprotegidos:
  necessitaremos de um novo segredo. Mas, tal como no ponto anterior, esse segredo
  pode ser gerado a partir de uma _password_.
  
-Pretende-se assim adicionar à funcionalidade pedida no guião anterior a protecção
-dos segredos de acordo com uma das estratégias apresentadas. Quem o desejar, pode
-permitir qualquer uma das duas alternativas (e.g. através um argumento opcional que
-indique a _KeyStore_ a utilizar - assim se nada for indicado recorre a uma cifra
-baseada em _password_).
-Adicionalmente, e aproveitando o facto de a biblioteca [cryptography](https://cryptography.io/en/latest/)
-dispor de uma API para KDFs bem mais desenvolvida do que a [PyCryptodome](https://www.pycryptodome.org/en/latest/)
-utilizada na semana anterior, iremos migrar o desenvolvimento da aplicação desenvolvida para utilizar essa biblioteca. 
 ---
 ## Semana 3
 
